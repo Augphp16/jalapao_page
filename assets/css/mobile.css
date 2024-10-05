@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Black;
+}
+
+header {
+    height: 40px;
+    background-color: #E3B504;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 40px;
+}
+
+.inicio {
+    height: 500px;
+    background: url("../images/inicio.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicio h1 {
+    font-size: 28px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.inicio h3 {
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.linha {
+    margin-top: 5px;
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.conteudo-meio {
+    background-color: white;
+    height: 210px;
+    width: 75%;
+    transform:translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meio {
+    background-color: #E3B504;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text img {
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.text p {
+    margin-top: 15px;
+    margin-right: 10px;
+    color: rgb(123, 121, 121);
+    text-align: center;
+    width: 170px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.botao {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao button {
+    height: 30px;
+    width: 100px;
+    background-color: #E3B504;
+    font-size: 8px;
+    border: #E3B504;
+    border-radius: 30px;
+    color: white;
+    font-weight: 900;
+    font-family: "Raleway", Black;
+}
+
+.countdown {
+    background-color: aliceblue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    margin: 0 5px;
+    text-align: center;
+    font-size: 25px;
+    color: #1f1f50;
+}
+
+.label {
+    font-size: 6px;
+    color: #1f1f50;
+}
